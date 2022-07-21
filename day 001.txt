@@ -1,0 +1,20 @@
+1.difference between HTTP1.1 and HTTP2:
+
+             HTTP1.1                                   HTTP2
+   1.It used works on the textual format.	It works on the binary protocol.
+   2.It uses requests resource Inlining for     It uses PUSH frame by server that collects all multiple pages 
+     use getting multiple pages   
+   3.It compresses data by itself.              It uses HPACK for data compression.    
+
+
+2.Objects and its internal representaion of js:
+   1.Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript.
+  
+   2.These objects are quite different from JavaScript’s primitive datatypes(Number,String,Boolean,null,undefined and symbol)
+     in the sense that while these primitive data-types all store a single value each (depending on their types).
+
+   3.An object, is a reference data type.
+     Variables that are assigned a reference value are given a reference or a pointer to that value.
+
+     
+
